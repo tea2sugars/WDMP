@@ -125,14 +125,6 @@
 
 <div class="main-container container">
 
-  <header role="banner" id="page-header">
-    <?php if (!empty($site_slogan)): ?>
-      <p class="lead"><?php print $site_slogan; ?></p>
-    <?php endif; ?>
-
-    <?php print render($page['header']); ?>
-  </header> <!-- /#page-header -->
-
   	<div class="row">
 	    <section<?php print $content_column_class; ?>>
 	      <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
@@ -167,6 +159,16 @@
 			</section>
 		</div>
 	</div>
+</div>
+
+<div class="container">
+		<div class="row">
+			<section class="col-xs-12">
+		<?php if (!empty($page['page_bottom'])): ?>
+		        <?php print render($page['page_bottom']); ?>
+		<?php endif; ?>
+			</section>
+		</div>
 </div>
 
 <footer class="footer container-fluid">
