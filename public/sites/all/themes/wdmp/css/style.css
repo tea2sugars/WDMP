@@ -1,4 +1,28 @@
-/**
- * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
- * remove this comment and start adding your styles to this file.
- */
+#navbar {background:#00ABC2;
+}
+.navbar {
+	min-height:100px;
+}
+.navbar nav {
+	margin-top:30px;
+}
+.navbar-btn {
+		margin:0;
+	}
+.main-container {
+	margin-top: 100px;
+}
+
+/*Footer*/
+footer {
+	background: #3B3B3B;
+}
+
+footer, footer p, footer a {
+	color:white;
+}
+footer a:hover {
+	color:white;
+	text-decoration: underline;
+	
+}
