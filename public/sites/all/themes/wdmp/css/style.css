@@ -13,6 +13,10 @@
 	margin-top: 100px;
 }
 
+.jumbotron {
+	padding:0;
+}
+
 #product-wrapper {
 	background:teal;
 }
